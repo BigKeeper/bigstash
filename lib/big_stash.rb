@@ -1,4 +1,4 @@
-require "big_stash/version"
+require 'big_stash/version'
 
 module BigStash
   # Your code goes here...
