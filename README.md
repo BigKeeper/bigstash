@@ -1,8 +1,6 @@
 # BigStash
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/big_stash`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+big-stash is an enhancement for `git stash` command, you can use it to add and apply a stash with the name you have specified before.
 
 ## Installation
 
@@ -22,7 +20,31 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run `bin/big-stash` to learn how to use big-stash.
+
+### Add a stash with name
+
+If you want to add a stash for a git repository, run following command:
+
+``` ruby
+bin/big-stash -p [root path for a git repository] add [name of the stash]
+```
+
+### Apply a stash with name
+
+If you want to apply a stash for a git repository, run following command:
+
+``` ruby
+bin/big-stash -p [root path for a git repository] apply [name of the stash]
+```
+
+### List all the stashes
+
+If you want to list all the stashes for a git repository, run following command:
+
+``` ruby
+bin/big-stash -p [root path for a git repository] list
+```
 
 ## Development
 
