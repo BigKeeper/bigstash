@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-Run `bin/big-stash` to learn how to use big-stash.
+Run `big-stash` to learn how to use big-stash.
 
 ### Add a stash with name
 
