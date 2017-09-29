@@ -1,5 +1,7 @@
 # BigStash
 
+![](https://github.com/BigKeeper/big-stash/blob/master/resources/demo.png)
+
 big-stash is an enhancement for `git stash` command, you can use it to add and apply a stash with the name you have specified before.
 
 ## Installation
