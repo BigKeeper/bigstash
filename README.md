@@ -56,7 +56,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/big_stash.
+Bug reports and pull requests are welcome on GitHub at https://github.com/BigKeeper/big-stash.
 
 ## License
 
