@@ -27,7 +27,7 @@ Run `bin/big-stash` to learn how to use big-stash.
 If you want to add a stash for a git repository, run following command:
 
 ``` ruby
-bin/big-stash -p [root path for a git repository] add [name of the stash]
+big-stash -p [root path for a git repository] add [name of the stash]
 ```
 
 ### Apply a stash with name
@@ -35,7 +35,7 @@ bin/big-stash -p [root path for a git repository] add [name of the stash]
 If you want to apply a stash for a git repository, run following command:
 
 ``` ruby
-bin/big-stash -p [root path for a git repository] apply [name of the stash]
+big-stash -p [root path for a git repository] apply [name of the stash]
 ```
 
 ### List all the stashes
@@ -43,7 +43,7 @@ bin/big-stash -p [root path for a git repository] apply [name of the stash]
 If you want to list all the stashes for a git repository, run following command:
 
 ``` ruby
-bin/big-stash -p [root path for a git repository] list
+big-stash -p [root path for a git repository] list
 ```
 
 ## Development
