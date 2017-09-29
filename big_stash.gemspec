@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Enhancement for git stash.}
   spec.description   = %q{Enhancement for git stash that you can give a name to the stash.}
-  spec.homepage      = "https://github.com/mmoaay/big-stash"
+  spec.homepage      = "https://github.com/BigKeeper/big-stash"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
