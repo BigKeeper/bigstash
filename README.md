@@ -32,6 +32,14 @@ If you want to add a stash for a git repository, run following command:
 big-stash -p [root path for a git repository] add [name of the stash]
 ```
 
+### Pop a stash with name
+
+If you want to apply then delete a stash for a git repository, run following command:
+
+``` ruby
+big-stash -p [root path for a git repository] pop [name of the stash]
+```
+
 ### Apply a stash with name
 
 If you want to apply a stash for a git repository, run following command:
