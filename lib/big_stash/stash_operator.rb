@@ -16,10 +16,14 @@ module BigStash
     end
 
     def stash(name)
-      if can_stash
-        p `cd #{@path}; git stash save -a #{name}`
+      if @stashes[name]
+        raise "Already have a stash with name #{name}"
       else
-        p 'Nothing to stash, working tree clean, continue...'
+        if can_stash
+          p `cd #{@path}; git stash save -a #{name}`
+        else
+          p 'Nothing to stash, working tree clean, continue...'
+        end
       end
     end
 
@@ -35,11 +39,18 @@ module BigStash
     end
 
     def apply_stash(name)
-      stash = @stashes[name]
-      if stash
+      if @stashes[name]
         p `cd #{@path}; git stash apply #{stash}`
       else
         p %(Nothing to apply, can not find the stash with name '#{name}', continue...)
+      end
+    end
+
+    def pop_stash(name)
+      if @stashes[name]
+        p `cd #{@path}; git stash pop #{stash}`
+      else
+        p %(Nothing to pop, can not find the stash with name '#{name}', continue...)
       end
     end
 

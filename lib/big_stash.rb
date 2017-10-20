@@ -35,6 +35,14 @@ module BigStash
     end
   end
 
+  desc 'Pop a stash with name'
+  command :pop do |c|
+    c.action do |global_options, options, args|
+      help_now!('stash name is required') if args.empty?
+      BigStash::StashOperator.new(path).pop_stash(args.first)
+    end
+  end
+
   desc 'List all the stashes'
   command :list do |c|
     c.action do
