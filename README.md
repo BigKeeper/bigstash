@@ -1,6 +1,7 @@
 # BigStash
 
 [![Build Status](https://travis-ci.org/BigKeeper/big-stash.svg?branch=master)](https://travis-ci.org/BigKeeper/big-stash)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5f0f2238df6d7f3908bf/maintainability)](https://codeclimate.com/github/BigKeeper/big-stash/maintainability)
 [![Gem Version](https://badge.fury.io/rb/big_stash.svg)](https://rubygems.org/gems/big_stash)
 [![Language: Ruby](https://img.shields.io/badge/language-Ruby-da212f.svg)](https://www.ruby-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-000000.svg)](https://github.com/BigKeeper/big-stash/blob/master/LICENSE)
