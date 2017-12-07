@@ -40,7 +40,7 @@ module BigStash
 
     def apply_stash(name)
       if @stashes[name]
-        p `cd #{@path}; git stash apply #{stash}`
+        p `cd #{@path}; git stash apply #{name}`
       else
         p %(Nothing to apply, can not find the stash with name '#{name}', continue...)
       end
@@ -48,7 +48,7 @@ module BigStash
 
     def pop_stash(name)
       if @stashes[name]
-        p `cd #{@path}; git stash pop #{stash}`
+        p `cd #{@path}; git stash pop #{name}`
       else
         p %(Nothing to pop, can not find the stash with name '#{name}', continue...)
       end
