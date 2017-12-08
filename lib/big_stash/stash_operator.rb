@@ -20,7 +20,7 @@ module BigStash
         raise "Already have a stash with name #{name}"
       else
         if can_stash
-          p `cd #{@path}; git stash save -a #{name}`
+          p `cd #{@path}; git stash save #{name}`
         else
           p 'Nothing to stash, working tree clean, continue...'
         end
